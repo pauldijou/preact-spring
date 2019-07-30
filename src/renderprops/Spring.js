@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'preact/compat'
 import PropTypes from 'prop-types'
 import Controller from './animated/Controller'
 import * as Globals from './animated/Globals'

@@ -1,4 +1,4 @@
-import { MutableRefObject, ReactType } from 'react'
+import { MutableRefObject, ReactType } from 'preact/compat'
 import { InterpolationConfig } from '../types/interpolation'
 import AnimatedStyle from './AnimatedStyle'
 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'preact/compat'
 import AnimatedProps from './AnimatedProps'
 import { handleRef, shallowEqual } from '../shared/helpers'
 import * as Globals from './Globals'

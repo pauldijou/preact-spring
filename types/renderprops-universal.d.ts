@@ -11,7 +11,7 @@ import {
   Ref,
   ForwardRefExoticComponent,
   ComponentPropsWithRef,
-} from 'react'
+} from 'preact/compat'
 
 export type SpringEasingFunc = (t: number) => number
 

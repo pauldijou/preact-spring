@@ -6,7 +6,7 @@ import React, {
   useEffect,
   useImperativeHandle,
   useRef,
-} from 'react'
+} from 'preact/compat'
 import { handleRef, useForceUpdate, is } from '../shared/helpers'
 import {
   AnimatedComponentProps,

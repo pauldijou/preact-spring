@@ -2,7 +2,7 @@ import {
   ForwardRefExoticComponent,
   ComponentPropsWithRef,
   ReactType,
-} from 'react'
+} from 'preact/compat'
 import * as konva from 'react-konva'
 import { animated } from './renderprops-universal'
 export * from './renderprops-universal'

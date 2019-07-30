@@ -5,7 +5,7 @@ import {
   useMemo,
   useImperativeHandle,
   useCallback,
-} from 'react'
+} from 'preact/compat'
 import Ctrl from './animated/Controller'
 import { is, toArray, callProp, useForceUpdate } from './shared/helpers'
 import { requestFrame } from './animated/Globals'

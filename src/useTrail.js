@@ -1,4 +1,4 @@
-import { useRef, useMemo, useEffect } from 'react'
+import { useRef, useMemo, useEffect } from 'preact/compat'
 import { callProp, is } from './shared/helpers'
 import { useSprings } from './useSprings'
 

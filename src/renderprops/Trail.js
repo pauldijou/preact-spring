@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'preact/compat'
 import PropTypes from 'prop-types'
 import Spring from './Spring'
 import { toArray } from './shared/helpers'

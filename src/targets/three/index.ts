@@ -13,7 +13,7 @@ import { useTrail } from '../../useTrail'
 import { useTransition } from '../../useTransition'
 import { merge } from '../../shared/helpers'
 import { update } from '../../animated/FrameLoop'
-import { ReactType } from 'react'
+import { ReactType } from 'preact/compat'
 
 // Extend animated with all the available THREE elements
 const apply = merge(animated)

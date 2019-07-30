@@ -2,7 +2,7 @@
   "name": "react-spring",
   "version": "8.0.27",
   "description": "A set of spring-physics based animation primitives",
-  "main": "web.cjs.js",
+  "main": "web.js",
   "module": "web.js",
   "react-native": "native.js",
   "private": true,
@@ -11,8 +11,9 @@
     "prebuild": "rimraf dist",
     "docz": "docz dev",
     "docz:build": "docz build && cp .docz/dist/index.html .docz/dist/200.html && cp examples/CNAME .docz/dist/CNAME",
-    "build": "npm-run-all --parallel copy rollup",
+    "build": "npm-run-all --parallel copy rollup && npm run copy:web",
     "copy": "copyfiles -f package.json readme.md LICENSE.md \"types/*\" dist && json -I -f dist/package.json -e \"this.private=false; this.devDependencies=undefined; this.optionalDependencies=undefined; this.scripts=undefined; this.husky=undefined; this.prettier=undefined; this.jest=undefined;\"",
+    "copy:web": "copyfiles -f dist/web.js .",
     "rollup": "rollup -c",
     "prepare": "npm run build",
     "test": "jest",
@@ -100,8 +101,7 @@
     "typescript": "3.3.3"
   },
   "peerDependencies": {
-    "react": ">= 16.8.0",
-    "react-dom": ">= 16.8.0"
+    "preact": "10.0.0-rc.0"
   },
   "dependencies": {
     "@babel/runtime": "^7.3.1",

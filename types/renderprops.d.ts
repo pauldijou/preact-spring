@@ -1,4 +1,4 @@
-import { ForwardRefExoticComponent, ComponentPropsWithRef } from 'react'
+import { ForwardRefExoticComponent, ComponentPropsWithRef } from 'preact/compat'
 import { animated } from './renderprops-universal'
 export * from './renderprops-universal'
 

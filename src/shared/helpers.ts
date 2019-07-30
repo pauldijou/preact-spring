@@ -1,4 +1,4 @@
-import { MutableRefObject, Ref, useCallback, useState } from 'react'
+import { MutableRefObject, Ref, useCallback, useState } from 'preact/compat'
 
 export const is = {
   arr: Array.isArray,

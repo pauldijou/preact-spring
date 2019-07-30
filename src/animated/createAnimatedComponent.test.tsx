@@ -1,4 +1,4 @@
-import React, { forwardRef } from 'react'
+import React, { forwardRef } from 'preact/compat'
 import { cleanup, render } from 'react-testing-library'
 import '../targets/web'
 import { SpringValue } from '../types/animated'

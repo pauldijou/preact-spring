@@ -1,4 +1,4 @@
-import { useMemo, useRef, useImperativeHandle, useEffect } from 'react'
+import { useMemo, useRef, useImperativeHandle, useEffect } from 'preact/compat'
 import Ctrl from './animated/Controller'
 import { callProp, is } from './shared/helpers'
 

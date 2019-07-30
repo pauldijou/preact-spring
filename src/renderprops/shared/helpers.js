@@ -1,4 +1,4 @@
-import { useRef, useLayoutEffect } from 'react'
+import { useRef, useLayoutEffect } from 'preact/compat'
 import AnimatedValue from '../animated/AnimatedValue'
 import AnimatedArray from '../animated/AnimatedArray'
 

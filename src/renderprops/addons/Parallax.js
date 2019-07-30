@@ -1,6 +1,11 @@
-import React from 'react'
+import React from 'preact/compat'
 import PropTypes from 'prop-types'
-import { Controller, config, Globals, animated } from 'react-spring/renderprops'
+import {
+  Controller,
+  config,
+  Globals,
+  animated,
+} from 'preact-spring/renderprops'
 
 const El = Globals.defaultElement
 const AnimatedDiv = animated(El)
